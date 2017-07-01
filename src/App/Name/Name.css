@@ -3,6 +3,9 @@
   margin-left: 4vw;
   font-size: 144pt;
   font-family: 'Avenir Next Demi';
+  font-weight: 600;
+  font-style: normal;
   text-align: left;
   line-height: 175pt;
+  cursor: default;
 }

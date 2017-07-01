@@ -11,15 +11,20 @@ a:-webkit-any-link {
   text-decoration: none;
 }
 
-@font-face {
+/*@font-face {
   font-family: 'Montserrat-Regular';
   src: url('./assets/fonts/Montserrat-Regular.ttf');
 }
 
 @font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('./assets/fonts/Montserrat-Regular.ttf');
+}*/
+
+/*@font-face {
   font-family: 'Avenir Next Demi';
   color: #060606;
   src: url('./assets/fonts/AvenirNext-DemiBold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
-}
+}*/

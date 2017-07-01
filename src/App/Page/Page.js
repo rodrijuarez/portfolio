@@ -2,6 +2,7 @@ import React from 'react';
 import Navigation from '../Navigation';
 import Logo from '../Logo';
 import Name from '../Name';
+import Profession from '../Profession';
 import styles from './Page.css';
 
 class Page extends React.Component {
@@ -19,6 +20,7 @@ class Page extends React.Component {
       </div>
       <div className={styles.rightSectionContainer}>
         <Name text="Rodrigo Juarez" />
+        <Profession />
       </div>
     </div>;
 }
