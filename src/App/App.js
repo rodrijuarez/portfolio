@@ -1,10 +1,9 @@
 import React from 'react';
-import cssModule from 'react-css-modules';
-import styles from './App.css';
+import Page from './Page';
 
 class App extends React.Component {
   static propTypes = {};
-  render = () => <div>App</div>;
+  render = () => <Page />;
 }
 
 export default App;

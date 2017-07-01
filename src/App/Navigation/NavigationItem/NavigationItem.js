@@ -1,6 +1,5 @@
 import React from 'react';
-import cssModule from 'react-css-modules';
-import styles from './NavigationItem.css';
+// import styles from './NavigationItem.css';
 import PropTypes from 'prop-types';
 
 class NavigationItem extends React.Component {
@@ -16,4 +15,4 @@ class NavigationItem extends React.Component {
     </div>;
 }
 
-export default cssModule(NavigationItem, styles);
+export default NavigationItem;
