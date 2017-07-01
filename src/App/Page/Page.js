@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from '../Navigation';
 import Logo from '../Logo';
+import Name from '../Name';
 import styles from './Page.css';
 
 class Page extends React.Component {
@@ -8,8 +9,17 @@ class Page extends React.Component {
 
   render = () =>
     <div className={styles.pageContainer}>
-      <Logo />
-      <Navigation />
+      <div className={styles.leftSectionContainer}>
+        <div className={styles.row}>
+          <Logo />
+        </div>
+        <div className={styles.row}>
+          <Navigation />
+        </div>
+      </div>
+      <div className={styles.rightSectionContainer}>
+        <Name text="Rodrigo Juarez" />
+      </div>
     </div>;
 }
 

@@ -2,3 +2,23 @@
   width: 100vw;
   height: 100vh;
 }
+
+.leftSectionContainer {
+  width: 33.33%;
+  height: 100vh;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.rightSectionContainer {
+  width: 66.66%;
+  overflow: scroll;
+  display: inline-block;
+  margin-top: 7.8vh;
+  vertical-align: top;
+}
+
+.row {
+  width: 100%;
+  display: block;
+}
