@@ -1,5 +1,5 @@
 import React from 'react';
-// import styles from './NavigationItem.css';
+import styles from './NavigationItem.css';
 import PropTypes from 'prop-types';
 
 class NavigationItem extends React.Component {
@@ -8,11 +8,11 @@ class NavigationItem extends React.Component {
   };
 
   render = () =>
-    <div>
-      <p>
-        {this.props.text}
-      </p>
-    </div>;
+    <li className={styles.navigationItem}>
+      <a href="/">
+        {this.props.text.toUpperCase()}
+      </a>
+    </li>;
 }
 
 export default NavigationItem;

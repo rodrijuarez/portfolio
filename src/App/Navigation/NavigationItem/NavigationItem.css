@@ -1,0 +1,10 @@
+.navigationItem {
+  margin-bottom: 3.5vh;
+  font-family: 'Montserrat-Regular';
+  font-size: 24pt;
+  display: block;
+}
+
+.navigationItem a {
+  display: inline-block;
+}

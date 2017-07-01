@@ -3,5 +3,17 @@
   height: 83.6vh;
   margin-top: 16.4vh;
   margin-left: 10.1vw;
-  position: absolute;
+  position: fixed;
+}
+
+.navigationList {
+  margin-right: 32.7%;
+  margin-top: 4%;
+  text-align: right;
+}
+
+.navigationList li:first-child a {
+  border-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 3pt;
 }
