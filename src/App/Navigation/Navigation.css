@@ -1,17 +1,17 @@
 .navigation {
-  width: 21.4vw;
-  height: 83.6vh;
-  margin-top: 3.9vh;
-  margin-left: 10.1vw;
+  width: 30.8rem;
+  height: 87.4rem;
+  margin-top: 16.8rem;
+  margin-left: 26rem;
 }
 
 .navigationList {
-  margin-right: 32.7%;
-  margin-top: 4%;
+  margin-right: 10rem;
   text-align: right;
 }
 
 .navigationList li:first-child a {
+  margin-top: 3.4rem;
   border-color: black;
   border-bottom-style: solid;
   border-bottom-width: 3pt;
