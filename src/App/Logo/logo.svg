@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="102px" viewBox="0 0 100 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Portfolio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo">
+            <g>
+                <g id="Logo-Letters" transform="translate(40.000000, 31.000000)" font-size="24" font-family="AvenirNext-Regular, Avenir Next" fill="#4A4A4A" font-weight="normal">
+                    <text id="R">
+                        <tspan x="0" y="24">R</tspan>
+                    </text>
+                    <text id="J">
+                        <tspan x="8" y="30">J</tspan>
+                    </text>
+                </g>
+                <rect id="Rectangle" stroke="#4A4A4A" stroke-width="2" x="1" y="1" width="86" height="89"></rect>
+                <rect id="Rectangle" stroke="#4A4A4A" stroke-width="2" x="13" y="12" width="86" height="89"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
