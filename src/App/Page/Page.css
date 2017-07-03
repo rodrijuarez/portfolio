@@ -4,18 +4,62 @@
 }
 
 .leftSectionContainer {
-  width: 33.33%;
+  width: 57.4rem;
   height: 100vh;
   display: inline-block;
   vertical-align: top;
 }
 
+@media only screen and (max-width: 1439px) {
+  .leftSectionContainer {
+    width: 24.9rem;
+    height: 100vh;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .leftSectionContainer {
+    display: none;
+  }
+}
+
 .rightSectionContainer {
-  width: 66.67%;
+  width: 86rem;
   overflow: scroll;
   display: inline-block;
-  margin-top: 11.8rem;
   vertical-align: top;
+}
+
+@media only screen and (max-width: 1439px) {
+  .rightSectionContainer {
+    width: 77.5rem;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .rightSectionContainer {
+    width: 100%;
+  }
+}
+
+.contentSection {
+  margin-left: 0.6rem;
+}
+
+@media only screen and (max-width: 1439px) {
+  .contentSection {
+    margin-left: 17.2rem;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .contentSection {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
 }
 
 .row {
@@ -28,8 +72,10 @@
 
 .rightSectionContainer .row {
   width: 75%;
-  display: block;
-  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-  -moz-box-sizing: border-box; /* Firefox, other Gecko */
-  box-sizing: border-box; /* Opera/IE 8+ */
+}
+
+@media only screen and (max-width: 1023px) {
+  .rightSectionContainer .row {
+    width: 100%;
+  }
 }

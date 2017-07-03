@@ -5,7 +5,7 @@ class Profession extends React.Component {
   static propTypes = {};
   render = () =>
     <div className={[styles.profession, 'disable-select'].join(' ')}>
-      - SOFTWARE DEVELOPER
+      <h3>- SOFTWARE DEVELOPER</h3>
     </div>;
 }
 
