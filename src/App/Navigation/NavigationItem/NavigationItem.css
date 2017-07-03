@@ -6,3 +6,9 @@
 .navigationItem a {
   display: inline-block;
 }
+
+.navigationItem .active {
+  border-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 3pt;
+}

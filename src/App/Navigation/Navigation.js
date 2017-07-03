@@ -8,10 +8,10 @@ class Navigation extends React.Component {
   render = () =>
     <div className={styles.navigation}>
       <ul className={styles.navigationList}>
-        <NavigationItem text="Home" />
-        <NavigationItem text="About" />
-        <NavigationItem text="Projects" />
-        <NavigationItem text="Contact" />
+        <NavigationItem text="Home" link="/" />
+        <NavigationItem text="About" link="/about" />
+        <NavigationItem text="Projects" link="/projects" />
+        <NavigationItem text="Contact" link="/contact" />
       </ul>
     </div>;
 }

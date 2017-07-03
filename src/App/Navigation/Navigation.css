@@ -27,9 +27,6 @@
 
 .navigationList li:first-child a {
   margin-top: 3.6rem;
-  border-color: black;
-  border-bottom-style: solid;
-  border-bottom-width: 3pt;
 }
 
 @media only screen and (max-width: 1439px) {

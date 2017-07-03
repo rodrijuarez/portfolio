@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
+import './assets/css/layout.css';
 import './assets/css/reset.css';
 import './assets/css/typography.css';
 import './assets/css/utilities.css';
