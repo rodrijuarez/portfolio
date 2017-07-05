@@ -4,8 +4,8 @@ import styles from './Profession.css';
 class Profession extends React.Component {
   static propTypes = {};
   render = () =>
-    <div className={[styles.profession, 'disable-select'].join(' ')}>
-      <h3>- SOFTWARE DEVELOPER</h3>
+    <div className={[styles.profession, styles.disableSelect].join(' ')}>
+      <h4>- SOFTWARE DEVELOPER</h4>
     </div>;
 }
 

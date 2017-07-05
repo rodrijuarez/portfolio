@@ -25,7 +25,34 @@ h1 {
   color: #060606;
 }
 
+h2 {
+  font-size: 4.8rem;
+  line-height: 6.6rem;
+  font-family: 'Avenir Next';
+  font-weight: normal;
+  font-style: normal;
+  color: #4a4a4a;
+}
+
+h2 {
+  font-size: 4.8rem;
+  line-height: 6.6rem;
+  font-family: 'Avenir Next';
+  font-weight: normal;
+  font-style: normal;
+  color: #4a4a4a;
+}
+
 h3 {
+  font-size: 3.6rem;
+  line-height: 4.9rem;
+  font-family: 'Avenir Next';
+  font-weight: normal;
+  font-style: normal;
+  color: #4a4a4a;
+}
+
+h4 {
   font-family: 'Helvetica Neue';
   font-weight: 300;
   font-style: normal;
@@ -46,6 +73,11 @@ p {
   cursor: default;
 }
 
+p.bold {
+  font-weight: 400;
+  font-style: normal;
+}
+
 a {
   font-family: 'Montserrat-Regular';
   font-size: 2.4rem;
@@ -53,11 +85,21 @@ a {
 
 @media only screen and (max-width: 1439px) {
   h1 {
-    font-size: 10.4rem;
+    font-size: 12.2rem;
     line-height: 13.8rem;
   }
 
+  h2 {
+    font-size: 3.6rem;
+    line-height: 4.9rem;
+  }
+
   h3 {
+    font-size: 3.0rem;
+    line-height: 4.1rem;
+  }
+
+  h4 {
     font-size: 2.0rem;
   }
 
@@ -72,7 +114,7 @@ a {
     line-height: 16.7rem;
   }
 
-  h3 {
+  h4 {
     font-size: 2.8rem;
   }
 
@@ -88,7 +130,7 @@ a {
     line-height: 6.6rem;
   }
 
-  h3 {
+  h4 {
     font-size: 1.4rem;
   }
 

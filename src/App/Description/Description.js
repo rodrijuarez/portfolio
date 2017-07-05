@@ -4,9 +4,10 @@ import styles from './Description.css';
 class Description extends React.Component {
   static propTypes = {};
   render = () =>
-    <p className={[styles.description, 'disable-select'].join(' ')}>
+    <p className={[styles.description, styles.disableSelect].join(' ')}>
       {'  '}Passionate software developer with a focus on{' '}
-      <span className={styles.bold}>web development</span>, <span className={styles.bold}>design </span>
+      <span className={styles.bold}>web development</span>,{' '}
+      <span className={styles.bold}>design </span>
       and <span className={styles.bold}>UX</span>.
     </p>;
 }

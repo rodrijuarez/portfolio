@@ -1,13 +1,17 @@
-.description {
-  margin-top: 3.4rem;
-}
-
-@media only screen and (max-width: 1023px) {
-  .description {
-    margin-top: 3.7rem;
-  }
-}
-
 .bold {
-  color: #4a4a4a;
+  composes: bold from '../../assets/css/utilities.css';
 }
+
+.disableSelect {
+  composes: disableSelect from '../../assets/css/utilities.css';
+}
+
+.description {
+  margin-top: 6.3vh;
+}
+
+/*@media only screen and (max-width: 1023px) {
+  .description {
+    margin-top: 
+  }
+}*/

@@ -1,5 +1,8 @@
+.disableSelect {
+  composes: disableSelect from '../../assets/css/utilities.css';
+}
+
 .name {
-  margin-top: 15.1rem;
   text-align: left;
   cursor: default;
 }

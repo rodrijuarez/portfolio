@@ -3,8 +3,26 @@
   height: 100%;
 }
 
+.contentSection {
+  width: 76.0416666667%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 1023px) {
+  .contentSection {
+    width: 84%;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .contentSection {
+    width: 84.7%;
+  }
+}
+
 .leftSectionContainer {
-  width: 57.4rem;
+  width: 32.5%;
   height: 100vh;
   display: inline-block;
   vertical-align: top;
@@ -12,10 +30,7 @@
 
 @media only screen and (max-width: 1439px) {
   .leftSectionContainer {
-    width: 24.9rem;
-    height: 100vh;
-    display: inline-block;
-    vertical-align: top;
+    width: 24.4%;
   }
 }
 
@@ -26,7 +41,7 @@
 }
 
 .rightSectionContainer {
-  width: 86rem;
+  width: 67.2%;
   overflow: scroll;
   display: inline-block;
   vertical-align: top;
@@ -34,41 +49,13 @@
 
 @media only screen and (max-width: 1439px) {
   .rightSectionContainer {
-    width: 77.5rem;
+    width: 75.6%;
   }
 }
 
 @media only screen and (max-width: 1023px) {
   .rightSectionContainer {
     width: 100%;
-  }
-}
-
-.rightSectionContainer .row {
-  width: 75%;
-}
-
-@media only screen and (max-width: 1023px) {
-  .rightSectionContainer .row {
-    width: 100%;
-  }
-}
-
-.contentSection {
-  margin-left: 0.6rem;
-}
-
-@media only screen and (max-width: 1439px) {
-  .contentSection {
-    margin-left: 17.2rem;
-  }
-}
-
-@media only screen and (max-width: 1023px) {
-  .contentSection {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
   }
 }
 

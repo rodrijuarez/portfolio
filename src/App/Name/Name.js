@@ -6,10 +6,10 @@ class Name extends React.Component {
   render = () => {
     return (
       <div className={styles.name}>
-        <h1 className={[styles.firstName, 'disable-select'].join(' ')}>
+        <h1 className={[styles.firstName, styles.disableSelect].join(' ')}>
           RODRIGO
         </h1>
-        <h1 className={[styles.lastName, 'disable-select'].join(' ')}>
+        <h1 className={[styles.lastName, styles.disableSelect].join(' ')}>
           JUAREZ
         </h1>
       </div>

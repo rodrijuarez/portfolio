@@ -1,4 +1,4 @@
-.disable-select {
+.disableSelect {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -7,4 +7,14 @@
 
 .fixed {
   position: fixed;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.bold {
+  color: #4a4a4a;
+  font-weight: 400;
+  font-style: normal;
 }
