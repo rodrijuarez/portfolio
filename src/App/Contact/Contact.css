@@ -44,8 +44,24 @@
   font-weight: 600;
   font-style: normal;
   text-transform: uppercase;
-  background-color: #fafafa;
+  background-color: white;
   margin-top: 2.34375vh;
+}
+
+.buttonWrapper:hover {
+  background: #fafafa;
+  outline: none;
+  -webkit-box-shadow: inset 0px 0px 4px #ffffff;
+  -moz-box-shadow: inset 0px 0px 4px #ffffff;
+  box-shadow: inset 0px 0px 4px #ffffff;
+}
+
+.buttonWrapper:active {
+  background: #eeeeee;
+  outline: none;
+  -webkit-box-shadow: inset 0px 0px 4px #fafafa;
+  -moz-box-shadow: inset 0px 0px 4px #fafafa;
+  box-shadow: inset 0px 0px 4px #fafafa;
 }
 
 .label {
@@ -71,6 +87,7 @@
   font-size: 1.8rem;
   margin-left: 1.1111111111vw;
   vertical-align: middle;
+  cursor: pointer;
 }
 
 .icon {
@@ -80,6 +97,12 @@
 .linkWrapper {
   margin-left: 0.45vw;
   margin-bottom: 2.7rem;
+  cursor: pointer;
+  transition: color 0.5s ease;
+}
+
+.linkWrapper:hover {
+  color: #7f7d7e;
 }
 
 input {
@@ -133,6 +156,12 @@ textarea {
   textarea {
     display: block;
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .linksWrapper {
+    display: none;
   }
 }
 

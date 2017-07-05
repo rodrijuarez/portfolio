@@ -10,15 +10,30 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 class Page extends React.Component {
   static propTypes = {};
 
+  constructor() {
+    super();
+    this.state = {
+      isMenuOpen: false
+    };
+  }
+
   render = () =>
     <Router>
       <div className={styles.pageContainer}>
         <div className={styles.leftSectionContainer}>
           <div className={[styles.row, styles.fixed].join(' ')}>
-            <Navigation />
+            <Navigation
+              openMenuChanged={this.openMenuChanged.bind(this)}
+              isMenuOpen={this.state.isMenuOpen}
+            />
           </div>
         </div>
-        <div className={styles.rightSectionContainer}>
+        <div
+          className={[
+            styles.rightSectionContainer,
+            this.state.isMenuOpen ? styles.blur : ''
+          ].join(' ')}
+        >
           <Route exact path="/" component={Landing} />
           <Route path="/about" component={About} />
           <Route path="/projects" component={Projects} />
@@ -26,6 +41,12 @@ class Page extends React.Component {
         </div>
       </div>
     </Router>;
+
+  openMenuChanged(state) {
+    this.setState(() => {
+      return { isMenuOpen: state.isOpen };
+    });
+  }
 }
 
 Page.propTypes = {};

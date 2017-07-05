@@ -7,10 +7,12 @@
 @media only screen and (max-width: 1439px) {
   .navigation {
     margin-top: 16.5vh;
-    /*width: 15.8rem;
-    height: 82rem;
-    margin-top: 20.4rem;
-    margin-left: 9.1rem;*/
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .navigationList {
+    display: none;
   }
 }
 
@@ -20,4 +22,10 @@
 
 .navigationList li:first-child a {
   margin-top: 3.4vh;
+}
+
+@media only screen and (max-width: 1023px) {
+  .hamburguerMenu li:first-child a {
+    margin-top: 3rem;
+  }
 }

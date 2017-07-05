@@ -30,29 +30,35 @@ class Contact extends React.Component {
           </div>
           <textarea placeholder="Message" rows="7" />
           <div className={[styles.linksWrapper, styles.marginLeft].join(' ')}>
-            <div className={[styles.linkWrapper]}>
-              <img
-                src={require('../../assets/icons/github.svg')}
-                className={styles.icon}
-              />
-              <label className={styles.link}>github.com/rodrijuarez</label>
-            </div>
-            <div className={[styles.linkWrapper]}>
-              <img
-                src={require('../../assets/icons/twitter.svg')}
-                className={styles.icon}
-              />
-              <label className={styles.link}>twitter.com/_rodrijuarez</label>
-            </div>
-            <div className={[styles.linkWrapper]}>
-              <img
-                src={require('../../assets/icons/mail.svg')}
-                className={styles.icon}
-              />
-              <label className={styles.link}>
-                rodrigo.juarez.inf@gmail.com
-              </label>
-            </div>
+            <a href="https://github.com/rodrijuarez" target="_blank">
+              <div className={[styles.linkWrapper]}>
+                <img
+                  src={require('../../assets/icons/github.svg')}
+                  className={styles.icon}
+                />
+                <label className={styles.link}>github.com/rodrijuarez</label>
+              </div>
+            </a>
+            <a href="https://twitter.com/_rodrijuarez" target="_blank">
+              <div className={[styles.linkWrapper]}>
+                <img
+                  src={require('../../assets/icons/twitter.svg')}
+                  className={styles.icon}
+                />
+                <label className={styles.link}>twitter.com/_rodrijuarez</label>
+              </div>
+            </a>
+            <a href="mailto:rodrigo.juarez.inf@gmail.com">
+              <div className={[styles.linkWrapper]}>
+                <img
+                  src={require('../../assets/icons/mail.svg')}
+                  className={styles.icon}
+                />
+                <label className={styles.link}>
+                  rodrigo.juarez.inf@gmail.com
+                </label>
+              </div>
+            </a>
           </div>
         </div>
         <button
