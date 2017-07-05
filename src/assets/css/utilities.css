@@ -18,3 +18,23 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.center {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: center;
+}
+
+.inlineCenter {
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: center;
+}

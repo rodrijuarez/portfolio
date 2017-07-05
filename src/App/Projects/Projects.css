@@ -1,0 +1,75 @@
+.contentSection {
+  composes: contentSection from '../../assets/css/layout.css';
+  margin-top: 17.7734375vh;
+}
+
+.row {
+  composes: row from '../../assets/css/layout.css';
+}
+
+row:nth-child(2) {
+  margin-right: 2.1739130434%;
+}
+
+.project {
+  height: 39.6484375vh;
+  margin-top: 0.9027777778vh;
+}
+
+.project h1 {
+  font-family: 'Montserrat';
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 6.4rem;
+}
+
+.project.half h1 {
+  font-size: 4.8rem;
+}
+
+.project h1 {
+  font-family: 'Montserrat';
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 6.4rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .project h1,
+  .project.half h1 {
+    font-size: 2.8rem;
+  }
+}
+
+.half {
+  width: calc(50% - 0.9027777778vh/2);
+  display: inline-block;
+}
+
+@media only screen and (max-width: 767px) {
+  .half {
+    display: block;
+    width: 100%;
+  }
+}
+
+.marginLeft {
+  margin-left: 0.9027777778vh;
+}
+
+@media only screen and (max-width: 767px) {
+  .marginLeft {
+    margin-left: 0;
+  }
+}
+
+.row:last-child {
+  margin-bottom: 9.6rem;
+}
+
+.disableSelect {
+  composes: disableSelect from '../../assets/css/utilities.css';
+  cursor: default;
+}

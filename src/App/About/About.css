@@ -15,18 +15,6 @@
   margin-top: 1.3671875vh;
 }
 
-@media only screen and (max-width: 1439px) {
-  /*.row {
-    width: 80%;
-  }*/
-}
-
-@media only screen and (max-width: 1023px) {
-  /*.row {
-    width: 100%;
-  }*/
-}
-
 .row:last-child {
   margin-bottom: 9.6rem;
 }

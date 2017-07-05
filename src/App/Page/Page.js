@@ -3,6 +3,7 @@ import Navigation from '../Navigation';
 import styles from './Page.css';
 import About from '../About';
 import Landing from '../Landing';
+import Projects from '../Projects';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 class Page extends React.Component {
@@ -19,7 +20,7 @@ class Page extends React.Component {
         <div className={styles.rightSectionContainer}>
           <Route exact path="/" component={Landing} />
           <Route path="/about" component={About} />
-          <Route path="/projects" component={Landing} />
+          <Route path="/projects" component={Projects} />
           <Route path="/contact" component={Landing} />
         </div>
       </div>
