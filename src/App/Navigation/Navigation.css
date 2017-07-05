@@ -1,36 +1,23 @@
 .navigation {
-  width: 31.4rem;
-  height: 87.6rem;
-  margin-top: 16.6rem;
-  margin-left: 26rem;
+  width: auto;
+  height: 100%;
+  margin-top: 19.7vh;
 }
 
 @media only screen and (max-width: 1439px) {
   .navigation {
-    width: 15.8rem;
+    margin-top: 16.5vh;
+    /*width: 15.8rem;
     height: 82rem;
     margin-top: 20.4rem;
-    margin-left: 9.1rem;
+    margin-left: 9.1rem;*/
   }
 }
 
 .navigationList {
-  margin-right: 10.3rem;
   text-align: right;
 }
 
-@media only screen and (max-width: 1439px) {
-  .navigationList {
-    margin-right: 0rem;
-  }
-}
-
 .navigationList li:first-child a {
-  margin-top: 3.6rem;
-}
-
-@media only screen and (max-width: 1439px) {
-  .navigationList li:first-child a {
-    margin-top: 0rem;
-  }
+  margin-top: 3.4vh;
 }

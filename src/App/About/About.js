@@ -53,7 +53,7 @@ class About extends React.Component {
         </p>
       </div>
       <div className={styles.row}>
-        <h3>Design</h3>
+        <h3>Travel and relocation</h3>
         <p className={styles.justify}>
           I’m also planning to move to{' '}
           <span className={styles.bold}>Europe</span>, the countries that I’m

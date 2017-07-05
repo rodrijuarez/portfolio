@@ -1,21 +1,34 @@
 .contentSection {
-  composes: contentSectionageContainer from '../../assets/css/layout.css';
-  margin-top: 18.2rem;
-  margin-left: 12.4rem;
+  composes: contentSection from '../../assets/css/layout.css';
+  margin-top: 17.7734375vh;
+}
+
+.row {
+  composes: row from '../../assets/css/layout.css';
+}
+
+.row:not(:first-child) {
+  margin-top: 4.39453125vh;
+}
+
+.row p {
+  margin-top: 1.3671875vh;
 }
 
 @media only screen and (max-width: 1439px) {
-  .contentSection {
-    margin-top: 19.2rem;
-    margin-left: 8.6rem;
-  }
+  /*.row {
+    width: 80%;
+  }*/
 }
 
-@media only screen and (max-width: 1439px) {
-  .contentSection {
-    margin-top: 15.4rem;
-    margin-left: 0rem;
-  }
+@media only screen and (max-width: 1023px) {
+  /*.row {
+    width: 100%;
+  }*/
+}
+
+.row:last-child {
+  margin-bottom: 9.6rem;
 }
 
 .bold {
@@ -24,37 +37,4 @@
 
 .justify {
   composes: justify from '../../assets/css/utilities.css';
-}
-
-.row {
-  composes: row from '../../assets/css/layout.css';
-  margin-top: 4.5rem;
-  width: 75%;
-}
-
-.row p {
-  margin-top: 1.4rem;
-}
-
-@media only screen and (max-width: 1439px) {
-  .row {
-    margin-top: 4rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 83.7%;
-  }
-
-  .row p {
-    margin-top: 1rem;
-  }
-}
-
-@media only screen and (max-width: 1023px) {
-  .row {
-    width: 100%;
-  }
-}
-
-.row:last-child {
-  margin-bottom: 9.6rem;
 }
