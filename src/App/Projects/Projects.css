@@ -55,6 +55,14 @@ row:nth-child(2) {
   }
 }
 
+.inlineCenter {
+  composes: inlineCenter from '../../assets/css/utilities.css';
+}
+
+.center {
+  composes: center from '../../assets/css/utilities.css';
+}
+
 .marginLeft {
   margin-left: 0.9027777778vh;
 }

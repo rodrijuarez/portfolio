@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Projects.css';
-import { inlineCenter, center } from '../../assets/css/utilities.css';
 
 class Projects extends React.Component {
   projects = [
@@ -28,7 +27,7 @@ class Projects extends React.Component {
   static propTypes = {};
 
   componentDidMount() {
-    document.title= 'Projects - Rodrigo Juarez'
+    document.title = 'Projects - Rodrigo Juarez';
   }
 
   render = () =>
@@ -46,8 +45,8 @@ class Projects extends React.Component {
       <div
         className={[
           styles.project,
-          project.half ? inlineCenter : center,
           project.half ? styles.half : '',
+          project.half ? styles.inlineCenter : styles.center,
           project.marginLeft ? styles.marginLeft : '',
           styles.disableSelect
         ].join(' ')}

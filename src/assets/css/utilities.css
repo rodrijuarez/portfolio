@@ -20,9 +20,9 @@
 }
 
 .center {
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+  display: -ms-flexbox !important;
+  display: -webkit-flex !important;
+  display: flex !important;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-align: center;
@@ -30,9 +30,9 @@
 }
 
 .inlineCenter {
-  display: -ms-inline-flexbox;
-  display: -webkit-inline-flex;
-  display: inline-flex;
+  display: -ms-inline-flexbox !important;
+  display: -webkit-inline-flex !important;
+  display: inline-flex !important;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-align: center;

@@ -69,13 +69,17 @@
   font-weight: normal;
   font-style: normal;
   font-size: 1.8rem;
-  margin-bottom: 2.7rem;
   margin-left: 1.1111111111vw;
+  vertical-align: middle;
+}
+
+.icon {
+  vertical-align: middle;
 }
 
 .linkWrapper {
-  display: block;
-  margin-left: 1.75vw;
+  margin-left: 0.45vw;
+  margin-bottom: 2.7rem;
 }
 
 input {
