@@ -3,6 +3,11 @@ import styles from './About.css';
 
 class About extends React.Component {
   static propTypes = {};
+
+  componentDidMount() {
+    document.title = 'About - Rodrigo Juarez';
+  }
+
   render = () =>
     <div className={styles.contentSection}>
       <div className={styles.row}>
@@ -57,7 +62,9 @@ class About extends React.Component {
         <p className={styles.justify}>
           I’m also planning to move to{' '}
           <span className={styles.bold}>Europe</span>, the countries that I’m
-          mostly interested in are <span className={styles.bold}>France</span>{' '}
+          mostly interested in are <span className={styles.bold}>
+            France
+          </span>{' '}
           (currently learning french) and{' '}
           <span className={styles.bold}>Germany</span>. So if you got any offer
           involving relocation to those countries, I’m all ears!

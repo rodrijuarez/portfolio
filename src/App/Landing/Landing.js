@@ -6,6 +6,11 @@ import Profession from '../Profession';
 
 class Landing extends React.Component {
   static propTypes = {};
+
+  componentDidMount() {
+    document.title = 'Home - Rodrigo Juarez';
+  }
+
   render = () =>
     <div className={styles.contentSection}>
       <div className={styles.row}>

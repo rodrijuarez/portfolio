@@ -1,9 +1,6 @@
 import React from 'react';
 import styles from './Projects.css';
-import {
-  inlineCenter,
-  center
-} from '../../assets/css/utilities.css';
+import { inlineCenter, center } from '../../assets/css/utilities.css';
 
 class Projects extends React.Component {
   projects = [
@@ -29,6 +26,11 @@ class Projects extends React.Component {
   ];
 
   static propTypes = {};
+
+  componentDidMount() {
+    document.title= 'Projects - Rodrigo Juarez'
+  }
+
   render = () =>
     <div className={[styles.contentSection, styles.disableSelect].join(' ')}>
       <div className={styles.row}>
