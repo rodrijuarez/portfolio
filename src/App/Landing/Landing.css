@@ -19,3 +19,84 @@
     width: 100%;
   }
 }
+
+.nameSectionEnter {
+  opacity: 0.01;
+}
+
+.nameSectionEnterActive {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+.nameSectionAppear {
+  opacity: 0.01;
+}
+
+.nameSectionAppearActive {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+.nameSectionLeave {
+  opacity: 1;
+}
+
+.nameSectionLeaveActive {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
+
+.professionSectionEnter {
+  opacity: 0.01;
+}
+
+.professionSectionEnterActive {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+.professionSectionAppear {
+  opacity: 0.01;
+}
+
+.professionSectionAppearActive {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+.professionSectionLeave {
+  opacity: 1;
+}
+
+.professionSectionLeaveActive {
+  opacity: 0.01;
+  transition: opacity 1500ms ease-in;
+}
+
+.descriptionSectionEnter {
+  opacity: 0.01;
+}
+
+.descriptionSectionEnterActive {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+.descriptionSectionAppear {
+  opacity: 0.01;
+}
+
+.descriptionSectionAppearActive {
+  opacity: 1;
+  transition: opacity 2000ms ease-in;
+}
+
+.descriptionSectionLeave {
+  opacity: 1;
+}
+
+.descriptionSectionLeaveActive {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
