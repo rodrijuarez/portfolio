@@ -11,68 +11,6 @@ row:nth-child(2) {
   margin-right: 2.1739130434%;
 }
 
-.project {
-  height: 39.6484375vh;
-  margin-top: 0.9027777778vh;
-}
-
-.project h1 {
-  font-family: 'Montserrat';
-  font-weight: normal;
-  font-style: normal;
-  text-transform: uppercase;
-  font-size: 6.4rem;
-}
-
-.project.half h1 {
-  font-size: 4.8rem;
-}
-
-.project h1 {
-  font-family: 'Montserrat';
-  font-weight: normal;
-  font-style: normal;
-  text-transform: uppercase;
-  font-size: 6.4rem;
-}
-
-@media only screen and (max-width: 767px) {
-  .project h1,
-  .project.half h1 {
-    font-size: 2.8rem;
-  }
-}
-
-.half {
-  width: calc(50% - 0.9027777778vh/2);
-  display: inline-block;
-}
-
-@media only screen and (max-width: 767px) {
-  .half {
-    display: block;
-    width: 100%;
-  }
-}
-
-.inlineCenter {
-  composes: inlineCenter from '../../assets/css/utilities.css';
-}
-
-.center {
-  composes: center from '../../assets/css/utilities.css';
-}
-
-.marginLeft {
-  margin-left: 0.9027777778vh;
-}
-
-@media only screen and (max-width: 767px) {
-  .marginLeft {
-    margin-left: 0;
-  }
-}
-
 .row:last-child {
   margin-bottom: 9.6rem;
 }
@@ -80,4 +18,120 @@ row:nth-child(2) {
 .disableSelect {
   composes: disableSelect from '../../assets/css/utilities.css';
   cursor: default;
+}
+
+/* Open Records Animations */
+
+.openRecordsProjectEnter {
+  opacity: 0.01;
+}
+
+.openRecordsProjectEnterActive {
+  opacity: 1;
+  transition: opacity 2000ms ease-in;
+}
+
+.openRecordsProjectAppear {
+  opacity: 0.01;
+}
+
+.openRecordsProjectAppearActive {
+  opacity: 1;
+  transition: opacity 2000ms ease-in;
+}
+
+.openRecordsProjectLeave {
+  opacity: 1;
+}
+
+.openRecordsProjectLeaveActive {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
+
+/* Plotly Animations */
+
+.plotlyProjectEnter {
+  opacity: 0.01;
+}
+
+.plotlyProjectEnterActive {
+  opacity: 1;
+  transition: opacity 3000ms ease-in;
+}
+
+.plotlyProjectAppear {
+  opacity: 0.01;
+}
+
+.plotlyProjectAppearActive {
+  opacity: 1;
+  transition: opacity 3000ms ease-in;
+}
+
+.plotlyProjectLeave {
+  opacity: 1;
+}
+
+.plotlyProjectLeaveActive {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
+
+/* Main Section Animations */
+
+.formfillProjectEnter {
+  opacity: 0.01;
+}
+
+.formfillProjectEnterActive {
+  opacity: 1;
+  transition: opacity 4000ms ease-in;
+}
+
+.formfillProjectAppear {
+  opacity: 0.01;
+}
+
+.formfillProjectAppearActive {
+  opacity: 1;
+  transition: opacity 4000ms ease-in;
+}
+
+.formfillProjectLeave {
+  opacity: 1;
+}
+
+.formfillProjectLeaveActive {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
+
+/* Main Section Animations */
+
+.daysleftProjectEnter {
+  opacity: 0.01;
+}
+
+.daysleftProjectEnterActive {
+  opacity: 1;
+  transition: opacity 5000ms ease-in;
+}
+
+.daysleftProjectAppear {
+  opacity: 0.01;
+}
+
+.daysleftProjectAppearActive {
+  opacity: 1;
+  transition: opacity 5000ms ease-in;
+}
+
+.daysleftProjectLeave {
+  opacity: 1;
+}
+
+.daysleftProjectLeaveActive {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
 }

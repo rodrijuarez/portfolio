@@ -1,0 +1,80 @@
+.project {
+  height: 39.6484375vh;
+  margin-top: 0.9027777778vh;
+}
+
+.project h1 {
+  font-family: 'Montserrat';
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 6.4rem;
+}
+
+.project.half h1 {
+  font-size: 4.8rem;
+}
+
+.project h1 {
+  font-family: 'Montserrat';
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 6.4rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .project h1,
+  .project.half h1 {
+    font-size: 2.8rem;
+  }
+}
+
+.half {
+  width: calc(50% - 0.9027777778vh/2);
+  display: inline-block;
+}
+
+@media only screen and (max-width: 767px) {
+  .half {
+    display: block;
+    width: 100%;
+  }
+}
+
+.inlineCenter {
+  composes: inlineCenter from '../../assets/css/utilities.css';
+}
+
+.center {
+  composes: center from '../../assets/css/utilities.css';
+}
+
+.marginLeft {
+  margin-left: 0.9027777778vh;
+}
+
+@media only screen and (max-width: 767px) {
+  .marginLeft {
+    margin-left: 0;
+  }
+}
+
+.project div {
+  display: inherit;
+  width: 100%;
+  height: 100%;
+  display: inherit;
+  -ms-flex-align: inherit;
+  align-items: inherit;
+  -webkit-box-align: inherit;
+  -ms-flex-pack: inherit;
+  justify-content: inherit;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.project div:not(:hover) {
+  border: 5pt solid #4a4a4a;
+  background-color: #fafafa !important;
+}
