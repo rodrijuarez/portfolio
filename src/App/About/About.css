@@ -27,29 +27,147 @@
   composes: justify from '../../assets/css/utilities.css';
 }
 
-.enter {
+/* Main Section Animations */
+
+.mainSectionEnter {
   opacity: 0.01;
 }
 
-.enterActive {
+.mainSectionEnterActive {
   opacity: 1;
   transition: opacity 1000ms ease-in;
 }
 
-.appear {
+.mainSectionAppear {
   opacity: 0.01;
 }
 
-.appearActive {
+.mainSectionAppearActive {
   opacity: 1;
   transition: opacity 1000ms ease-in;
 }
 
-.leave {
+.mainSectionLeave {
   opacity: 1;
 }
 
-.leaveActive {
+.mainSectionLeaveActive {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
+
+/* Career Section Animations */
+
+.careerSectionEnter {
+  opacity: 0.01;
+}
+
+.careerSectionEnterActive {
+  opacity: 1;
+  transition: opacity 1500ms ease-in;
+}
+
+.careerSectionAppear {
+  opacity: 0.01;
+}
+
+.careerSectionAppearActive {
+  opacity: 1;
+  transition: opacity 1500ms ease-in;
+}
+
+.careerSectionLeave {
+  opacity: 1;
+}
+
+.careerSectionLeaveActive {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
+
+/* Technologies Section Animations */
+
+.technologiesSectionEnter {
+  opacity: 0.01;
+}
+
+.technologiesSectionEnterActive {
+  opacity: 1;
+  transition: opacity 2000ms ease-in;
+}
+
+.technologiesSectionAppear {
+  opacity: 0.01;
+}
+
+.technologiesSectionAppearActive {
+  opacity: 1;
+  transition: opacity 2000ms ease-in;
+}
+
+.technologiesSectionLeave {
+  opacity: 1;
+}
+
+.technologiesSectionLeaveActive {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
+
+/* Design Section Animations */
+
+.designSectionEnter {
+  opacity: 0.01;
+}
+
+.designSectionEnterActive {
+  opacity: 1;
+  transition: opacity 2500ms ease-in;
+}
+
+.designSectionAppear {
+  opacity: 0.01;
+}
+
+.designSectionAppearActive {
+  opacity: 1;
+  transition: opacity 2500ms ease-in;
+}
+
+.designSectionLeave {
+  opacity: 1;
+}
+
+.designSectionLeaveActive {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
+
+/* Travel Section Animations */
+
+.travelSectionEnter {
+  opacity: 0.01;
+}
+
+.travelSectionEnterActive {
+  opacity: 1;
+  transition: opacity 3000ms ease-in;
+}
+
+.travelSectionAppear {
+  opacity: 0.01;
+}
+
+.travelSectionAppearActive {
+  opacity: 1;
+  transition: opacity 3000ms ease-in;
+}
+
+.travelSectionLeave {
+  opacity: 1;
+}
+
+.travelSectionLeaveActive {
   opacity: 0.01;
   transition: opacity 500ms ease-in;
 }

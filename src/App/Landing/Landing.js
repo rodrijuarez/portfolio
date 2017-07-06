@@ -49,7 +49,7 @@ class Landing extends React.Component {
     <div className={styles.contentSection}>
       <CSSTransitionGroup
         transitionAppear={true}
-        transitionAppearTimeout={1000}
+        transitionAppearTimeout={1500}
         transitionName={{
           enter: styles.nameSectionEnter,
           enterActive: styles.nameSectionEnterActive,
@@ -58,7 +58,7 @@ class Landing extends React.Component {
           appear: styles.nameSectionAppear,
           appearActive: styles.nameSectionAppearActive
         }}
-        transitionEnterTimeout={1000}
+        transitionEnterTimeout={1500}
         transitionLeaveTimeout={500}
         component="div"
         className={styles.row}
@@ -67,7 +67,7 @@ class Landing extends React.Component {
       </CSSTransitionGroup>
       <CSSTransitionGroup
         transitionAppear={true}
-        transitionAppearTimeout={1500}
+        transitionAppearTimeout={2000}
         transitionName={{
           enter: styles.professionSectionEnter,
           enterActive: styles.professionSectionEnterActive,
@@ -76,7 +76,7 @@ class Landing extends React.Component {
           appear: styles.professionSectionAppear,
           appearActive: styles.professionSectionAppearActive
         }}
-        transitionEnterTimeout={1000}
+        transitionEnterTimeout={2000}
         transitionLeaveTimeout={500}
         component="div"
         className={styles.row}
@@ -85,7 +85,7 @@ class Landing extends React.Component {
       </CSSTransitionGroup>
       <CSSTransitionGroup
         transitionAppear={true}
-        transitionAppearTimeout={2000}
+        transitionAppearTimeout={2500}
         transitionName={{
           enter: styles.descriptionSectionEnter,
           enterActive: styles.descriptionSectionEnterActive,
@@ -94,7 +94,7 @@ class Landing extends React.Component {
           appear: styles.descriptionSectionAppear,
           appearActive: styles.descriptionSectionAppearActive
         }}
-        transitionEnterTimeout={1000}
+        transitionEnterTimeout={2500}
         transitionLeaveTimeout={500}
         component="div"
         className={styles.row}

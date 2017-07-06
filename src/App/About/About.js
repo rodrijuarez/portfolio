@@ -120,12 +120,12 @@ class About extends React.Component {
           transitionAppear={true}
           transitionAppearTimeout={1000}
           transitionName={{
-            enter: styles.enter,
-            enterActive: styles.enterActive,
-            leave: styles.leave,
-            leaveActive: styles.leaveActive,
-            appear: styles.appear,
-            appearActive: styles.appearActive
+            enter: styles.mainSectionEnter,
+            enterActive: styles.mainSectionEnterActive,
+            leave: styles.mainSectionLeave,
+            leaveActive: styles.mainSectionLeaveActive,
+            appear: styles.mainSectionAppear,
+            appearActive: styles.mainSectionAppearActive
           }}
           transitionEnterTimeout={1000}
           transitionLeaveTimeout={500}
@@ -138,14 +138,14 @@ class About extends React.Component {
           transitionAppear={true}
           transitionAppearTimeout={1500}
           transitionName={{
-            enter: styles.enter,
-            enterActive: styles.enterActive,
-            leave: styles.leave,
-            leaveActive: styles.leaveActive,
-            appear: styles.appear,
-            appearActive: styles.appearActive
+            enter: styles.careerSectionEnter,
+            enterActive: styles.careerSectionEnterActive,
+            leave: styles.careerSectionLeave,
+            leaveActive: styles.careerSectionLeaveActive,
+            appear: styles.careerSectionAppear,
+            appearActive: styles.careerSectionAppearActive
           }}
-          transitionEnterTimeout={1000}
+          transitionEnterTimeout={1500}
           transitionLeaveTimeout={500}
           component="div"
           className={styles.row}
@@ -154,16 +154,16 @@ class About extends React.Component {
         </CSSTransitionGroup>
         <CSSTransitionGroup
           transitionAppear={true}
-          transitionAppearTimeout={1500}
+          transitionAppearTimeout={2000}
           transitionName={{
-            enter: styles.enter,
-            enterActive: styles.enterActive,
-            leave: styles.leave,
-            leaveActive: styles.leaveActive,
-            appear: styles.appear,
-            appearActive: styles.appearActive
+            enter: styles.technologiesSectionEnter,
+            enterActive: styles.technologiesSectionEnterActive,
+            leave: styles.technologiesSectionLeave,
+            leaveActive: styles.technologiesSectionLeaveActive,
+            appear: styles.technologiesSectionAppear,
+            appearActive: styles.technologiesSectionAppearActive
           }}
-          transitionEnterTimeout={1000}
+          transitionEnterTimeout={2000}
           transitionLeaveTimeout={500}
           component="div"
           className={styles.row}
@@ -172,16 +172,16 @@ class About extends React.Component {
         </CSSTransitionGroup>
         <CSSTransitionGroup
           transitionAppear={true}
-          transitionAppearTimeout={1500}
+          transitionAppearTimeout={2500}
           transitionName={{
-            enter: styles.enter,
-            enterActive: styles.enterActive,
-            leave: styles.leave,
-            leaveActive: styles.leaveActive,
-            appear: styles.appear,
-            appearActive: styles.appearActive
+            enter: styles.designSectionEnter,
+            enterActive: styles.designSectionEnterActive,
+            leave: styles.designSectionLeave,
+            leaveActive: styles.designSectionLeaveActive,
+            appear: styles.designSectionAppear,
+            appearActive: styles.designSectionAppearActive
           }}
-          transitionEnterTimeout={1000}
+          transitionEnterTimeout={2500}
           transitionLeaveTimeout={500}
           component="div"
           className={styles.row}
@@ -190,16 +190,16 @@ class About extends React.Component {
         </CSSTransitionGroup>
         <CSSTransitionGroup
           transitionAppear={true}
-          transitionAppearTimeout={1500}
+          transitionAppearTimeout={3000}
           transitionName={{
-            enter: styles.enter,
-            enterActive: styles.enterActive,
-            leave: styles.leave,
-            leaveActive: styles.leaveActive,
-            appear: styles.appear,
-            appearActive: styles.appearActive
+            enter: styles.travelSectionEnter,
+            enterActive: styles.travelSectionEnterActive,
+            leave: styles.travelSectionLeave,
+            leaveActive: styles.travelSectionLeaveActive,
+            appear: styles.travelSectionAppear,
+            appearActive: styles.travelSectionAppearActive
           }}
-          transitionEnterTimeout={1000}
+          transitionEnterTimeout={3000}
           transitionLeaveTimeout={500}
           component="div"
           className={styles.row}
