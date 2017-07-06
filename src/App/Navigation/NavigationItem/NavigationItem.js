@@ -6,7 +6,8 @@ import { NavLink } from 'react-router-dom';
 class NavigationItem extends React.Component {
   static propTypes = {
     text: PropTypes.string,
-    link: PropTypes.string
+    link: PropTypes.string,
+    onClick: PropTypes.func
   };
 
   render = () =>
@@ -15,6 +16,7 @@ class NavigationItem extends React.Component {
         to={this.props.link}
         activeClassName={styles.active}
         exact={true}
+        onClick={this.props.onClick}
       >
         {this.props.text.toUpperCase()}
       </NavLink>

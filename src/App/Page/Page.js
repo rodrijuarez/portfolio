@@ -24,7 +24,6 @@ class Page extends React.Component {
           <div className={[styles.row, styles.fixed].join(' ')}>
             <Navigation
               openMenuChanged={this.openMenuChanged.bind(this)}
-              isMenuOpen={this.state.isMenuOpen}
             />
           </div>
         </div>

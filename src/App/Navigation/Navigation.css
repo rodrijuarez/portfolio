@@ -1,12 +1,19 @@
 .navigation {
-  width: auto;
-  height: 100%;
-  margin-top: 19.7vh;
+  width: 17.1%;
+  height: 100vh;
+  position: fixed;
 }
 
 @media only screen and (max-width: 1439px) {
   .navigation {
-    margin-top: 16.5vh;
+    width: 24.4%;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .navigation {
+    position: static;
+    width: 0%;
   }
 }
 
@@ -18,6 +25,9 @@
 
 .navigationList {
   text-align: right;
+  position: relative;
+  top: 45%;
+  transform: translateY(-50%);
 }
 
 .navigationList li:first-child a {
@@ -28,4 +38,120 @@
   .hamburguerMenu li:first-child a {
     margin-top: 3rem;
   }
+}
+
+/* Home Navigation Item Animations */
+
+.homeNavigationItemEnter {
+  opacity: 0.01;
+}
+
+.homeNavigationItemEnterActive {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.homeNavigationItemAppear {
+  opacity: 0.01;
+}
+
+.homeNavigationItemAppearActive {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.homeNavigationItemLeave {
+  opacity: 1;
+}
+
+.homeNavigationItemLeaveActive {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
+
+/* About Navigation Item Animations */
+
+.aboutNavigationItemEnter {
+  opacity: 0.01;
+}
+
+.aboutNavigationItemEnterActive {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+.aboutNavigationItemAppear {
+  opacity: 0.01;
+}
+
+.aboutNavigationItemAppearActive {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+.aboutNavigationItemLeave {
+  opacity: 1;
+}
+
+.aboutNavigationItemLeaveActive {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
+
+/* Projects Navigation Item Animations */
+
+.projectsNagivationItemEnter {
+  opacity: 0.01;
+}
+
+.projectsNagivationItemEnterActive {
+  opacity: 1;
+  transition: opacity 1500ms ease-in;
+}
+
+.projectsNagivationItemAppear {
+  opacity: 0.01;
+}
+
+.projectsNagivationItemAppearActive {
+  opacity: 1;
+  transition: opacity 1500ms ease-in;
+}
+
+.projectsNagivationItemLeave {
+  opacity: 1;
+}
+
+.projectsNagivationItemLeaveActive {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
+
+/* Contact Navigation Item Animations */
+
+.contactNavigationItemEnter {
+  opacity: 0.01;
+}
+
+.contactNavigationItemEnterActive {
+  opacity: 1;
+  transition: opacity 2000ms ease-in;
+}
+
+.contactNavigationItemAppear {
+  opacity: 0.01;
+}
+
+.contactNavigationItemAppearActive {
+  opacity: 1;
+  transition: opacity 2000ms ease-in;
+}
+
+.contactNavigationItemLeave {
+  opacity: 1;
+}
+
+.contactNavigationItemLeaveActive {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
 }
