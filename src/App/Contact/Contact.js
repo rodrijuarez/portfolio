@@ -1,71 +1,111 @@
 import React from 'react';
 import styles from './Contact.css';
+import { CSSTransitionGroup } from 'react-transition-group';
 
+// <div className={[styles.linksWrapper, styles.marginLeft].join(' ')}>
 class Contact extends React.Component {
   static propTypes = {};
   render = () =>
     <div className={[styles.contentSection, styles.disableSelect].join(' ')}>
-      <h2>CONTACT</h2>
+      <CSSTransitionGroup
+        transitionAppear={true}
+        transitionAppearTimeout={500}
+        transitionName={{
+          enter: styles.contactTitleEnter,
+          enterActive: styles.contactTitleEnterActive,
+          leave: styles.contactTitleLeave,
+          leaveActive: styles.contactTitleLeaveActive,
+          appear: styles.contactTitleAppear,
+          appearActive: styles.contactTitleAppearActive
+        }}
+        transitionEnterTimeout={500}
+        transitionLeaveTimeout={500}
+        component="div"
+        className={styles.row}
+      >
+        <h2>CONTACT</h2>
+      </CSSTransitionGroup>
       <form onSubmit={e => e.preventDefault()}>
         <div
-          className={[styles.row, styles.inputWrapper, styles.half].join(' ')}
+          className={[styles.row, styles.half, styles.textareaWrapper].join(
+            ' '
+          )}
         >
-          <label className={styles.label}>Name</label>
-          <input type="text" placeholder="Name" />
+          <a href="https://github.com/rodrijuarez" target="_blank">
+            <CSSTransitionGroup
+              transitionAppear={true}
+              transitionAppearTimeout={1000}
+              transitionName={{
+                enter: styles.githubLinkEnter,
+                enterActive: styles.githubLinkEnterActive,
+                leave: styles.githubLinkLeave,
+                leaveActive: styles.githubLinkLeaveActive,
+                appear: styles.githubLinkAppear,
+                appearActive: styles.githubLinkAppearActive
+              }}
+              transitionEnterTimeout={1000}
+              transitionLeaveTimeout={500}
+              className={[styles.linkWrapper]}
+              component="div"
+            >
+              <img
+                src={require('../../assets/icons/github.svg')}
+                className={styles.icon}
+              />
+              <label className={styles.link}>github.com/rodrijuarez</label>
+            </CSSTransitionGroup>
+          </a>
+          <a href="https://twitter.com/_rodrijuarez" target="_blank">
+            <CSSTransitionGroup
+              transitionAppear={true}
+              transitionAppearTimeout={1500}
+              transitionName={{
+                enter: styles.twitterLinkEnter,
+                enterActive: styles.twitterLinkEnterActive,
+                leave: styles.twitterLinkLeave,
+                leaveActive: styles.twitterLinkLeaveActive,
+                appear: styles.twitterLinkAppear,
+                appearActive: styles.twitterLinkAppearActive
+              }}
+              transitionEnterTimeout={1500}
+              transitionLeaveTimeout={500}
+              className={[styles.linkWrapper]}
+              component="div"
+            >
+              <img
+                src={require('../../assets/icons/twitter.svg')}
+                className={styles.icon}
+              />
+              <label className={styles.link}>twitter.com/_rodrijuarez</label>
+            </CSSTransitionGroup>
+          </a>
+          <a href="mailto:rodrigo.juarez.inf@gmail.com">
+            <CSSTransitionGroup
+              transitionAppear={true}
+              transitionAppearTimeout={2000}
+              transitionName={{
+                enter: styles.mailLinkEnter,
+                enterActive: styles.mailLinkEnterActive,
+                leave: styles.mailLinkLeave,
+                leaveActive: styles.mailLinkLeaveActive,
+                appear: styles.mailLinkAppear,
+                appearActive: styles.mailLinkAppearActive
+              }}
+              transitionEnterTimeout={2000}
+              transitionLeaveTimeout={500}
+              className={[styles.linkWrapper]}
+              component="div"
+            >
+              <img
+                src={require('../../assets/icons/mail.svg')}
+                className={styles.icon}
+              />
+              <label className={styles.link}>
+                rodrigo.juarez.inf@gmail.com
+              </label>
+            </CSSTransitionGroup>
+          </a>
         </div>
-        <div
-          className={[
-            styles.row,
-            styles.inputWrapper,
-            styles.half,
-            styles.marginLeft
-          ].join(' ')}
-        >
-          <label className={styles.label}>E-mail</label>
-          <input type="text" placeholder="E-mail" />
-        </div>
-        <div className={[styles.row, styles.textareaWrapper].join(' ')}>
-          <div className={[styles.row, styles.labelWrapper].join(' ')}>
-            <label className={styles.label}>Message</label>
-          </div>
-          <textarea placeholder="Message" rows="7" />
-          <div className={[styles.linksWrapper, styles.marginLeft].join(' ')}>
-            <a href="https://github.com/rodrijuarez" target="_blank">
-              <div className={[styles.linkWrapper]}>
-                <img
-                  src={require('../../assets/icons/github.svg')}
-                  className={styles.icon}
-                />
-                <label className={styles.link}>github.com/rodrijuarez</label>
-              </div>
-            </a>
-            <a href="https://twitter.com/_rodrijuarez" target="_blank">
-              <div className={[styles.linkWrapper]}>
-                <img
-                  src={require('../../assets/icons/twitter.svg')}
-                  className={styles.icon}
-                />
-                <label className={styles.link}>twitter.com/_rodrijuarez</label>
-              </div>
-            </a>
-            <a href="mailto:rodrigo.juarez.inf@gmail.com">
-              <div className={[styles.linkWrapper]}>
-                <img
-                  src={require('../../assets/icons/mail.svg')}
-                  className={styles.icon}
-                />
-                <label className={styles.link}>
-                  rodrigo.juarez.inf@gmail.com
-                </label>
-              </div>
-            </a>
-          </div>
-        </div>
-        <button
-          className={[styles.row, styles.half, styles.buttonWrapper].join(' ')}
-        >
-          Send
-        </button>
       </form>
     </div>;
 

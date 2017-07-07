@@ -17,6 +17,7 @@
 }
 
 .inputWrapper {
+  display: block !important;
   height: 10.6vh;
   width: 100%;
 }
@@ -66,7 +67,7 @@
 
 .label {
   display: block;
-  font-family: 'Avenir Next';
+  font-family: 'Nunito Sans';
   font-weight: normal;
   font-style: normal;
   font-size: 1.8rem;
@@ -81,7 +82,7 @@
 
 .link {
   display: inline-block;
-  font-family: 'Avenir Next';
+  font-family: 'Nunito Sans';
   font-weight: normal;
   font-style: normal;
   font-size: 1.8rem;
@@ -110,7 +111,7 @@ input {
   border: 2pt solid #4a4a4a;
   height: 58.4905660377%;
   width: 100%;
-  font-family: 'Helvetica Neue';
+  font-family: 'Open Sans';
   font-weight: 100;
   font-style: normal;
   font-size: 1.8rem;
@@ -126,7 +127,7 @@ textarea {
   border: 2pt solid #4a4a4a;
   min-height: 58.4905660377%;
   width: 100%;
-  font-family: 'Helvetica Neue';
+  font-family: 'Open Sans';
   font-weight: 100;
   font-style: normal;
   font-size: 1.8rem;
@@ -178,4 +179,120 @@ textarea {
 .disableSelect {
   composes: disableSelect from '../../assets/css/utilities.css';
   cursor: default;
+}
+
+/* Contact Title Animations */
+
+.contactTitleEnter {
+  opacity: 0.01;
+}
+
+.contactTitleEnterActive {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.contactTitleAppear {
+  opacity: 0.01;
+}
+
+.contactTitleAppearActive {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.contactTitleLeave {
+  opacity: 1;
+}
+
+.contactTitleLeaveActive {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
+
+/* Github Link Animations */
+
+.githubLinkEnter {
+  opacity: 0.01;
+}
+
+.githubLinkEnterActive {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+.githubLinkAppear {
+  opacity: 0.01;
+}
+
+.githubLinkAppearActive {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+.githubLinkLeave {
+  opacity: 1;
+}
+
+.githubLinkLeaveActive {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
+
+/* Twitter Link Animations */
+
+.twitterLinkEnter {
+  opacity: 0.01;
+}
+
+.twitterLinkEnterActive {
+  opacity: 1;
+  transition: opacity 1500ms ease-in;
+}
+
+.twitterLinkAppear {
+  opacity: 0.01;
+}
+
+.twitterLinkAppearActive {
+  opacity: 1;
+  transition: opacity 1500ms ease-in;
+}
+
+.twitterLinkLeave {
+  opacity: 1;
+}
+
+.twitterLinkLeaveActive {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
+
+/* Mail Link Animations */
+
+.mailLinkEnter {
+  opacity: 0.01;
+}
+
+.mailLinkEnterActive {
+  opacity: 1;
+  transition: opacity 2000ms ease-in;
+}
+
+.mailLinkAppear {
+  opacity: 0.01;
+}
+
+.mailLinkAppearActive {
+  opacity: 1;
+  transition: opacity 2000ms ease-in;
+}
+
+.mailLinkLeave {
+  opacity: 1;
+}
+
+.mailLinkLeaveActive {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
 }
