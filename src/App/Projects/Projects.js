@@ -22,25 +22,29 @@ class Projects extends React.Component {
         {
           name: 'Open records',
           styleName: 'openRecordsProject',
-          backgroundColor: '#FF9800'
+          backgroundColor: '#FF9800',
+          link: 'http://seamlessgov.com/openrecord'
         },
         {
           name: 'Plot.ly',
           styleName: 'plotlyProject',
           backgroundColor: '#447BDC',
-          half: true
+          half: true,
+          link: 'https://plot.ly/'
         },
         {
           name: 'Formfill',
           styleName: 'formfillProject',
           backgroundColor: '#188DF2',
           half: true,
-          marginLeft: true
+          marginLeft: true,
+          link: 'http://seamlessgov.com/formfill'
         },
         {
           name: 'Daysleft.to',
           styleName: 'daysleftProject',
-          backgroundColor: '#F0524F'
+          backgroundColor: '#F0524F',
+          link: 'https://itunes.apple.com/us/app/daysleft.to/id1018601836?mt=8'
         }
       ]
     });
@@ -60,6 +64,7 @@ class Projects extends React.Component {
             half={project.half}
             backgroundColor={project.backgroundColor}
             name={project.name}
+            link={project.link}
             index={index}
           />
         );
