@@ -28,12 +28,15 @@ class About extends React.Component {
             spent most of my time working for software factories, where I’ve met
             a lot of great people and learned a lot from them. I was also
             fortunate enough to work on{' '}
-            <span className={styles.bold}>Bons</span>, a digital agency with a
-            great focus on UX and UI, a place where I’ve also discovered the
-            startup world.   At some point I realised that I wanted to
-            experience that world at first hand, and that’s where I joined{' '}
-            <span className={styles.bold}>Airfy</span>, the company that I work
-             for currently.
+            <a href="http://bons.me/" target="_blank">
+              <p className={styles.bold}>Bons</p>
+            </a>, a digital agency with a great focus on UX and UI, a place
+            where I’ve also discovered the startup world.   At some point I
+            realised that I wanted to experience that world at first hand, and
+            that’s where I joined{' '}
+            <a href="https://airfy.com/" target="_blank">
+              <p className={styles.bold}>Airfy</p>
+            </a>, the company that I work  for currently.
           </p>
         </div>
       );

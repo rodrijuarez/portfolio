@@ -55,6 +55,8 @@
 
 @media only screen and (max-width: 1023px) {
   .rightSectionContainer {
+    height: calc(100vh - 96px);
+    vertical-align: bottom;
     width: 100%;
   }
 }

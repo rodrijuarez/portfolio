@@ -15,6 +15,17 @@ class Projects extends React.Component {
     );
   }
 
+  /*
+
+        {
+          name: 'Plot.ly',
+          styleName: 'plotlyProject',
+          backgroundColor: '#447BDC',
+          half: true,
+          link: 'https://plot.ly/'
+        },
+        */
+
   componentDidMount() {
     this.setState({
       mounted: true,
@@ -26,18 +37,9 @@ class Projects extends React.Component {
           link: 'http://seamlessgov.com/openrecord'
         },
         {
-          name: 'Plot.ly',
-          styleName: 'plotlyProject',
-          backgroundColor: '#447BDC',
-          half: true,
-          link: 'https://plot.ly/'
-        },
-        {
           name: 'Formfill',
           styleName: 'formfillProject',
           backgroundColor: '#188DF2',
-          half: true,
-          marginLeft: true,
           link: 'http://seamlessgov.com/formfill'
         },
         {

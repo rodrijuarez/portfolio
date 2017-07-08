@@ -10,16 +10,10 @@ import './index.css';
 
 Webfont.load({
   google: {
-    families: [
-      'Arimo',
-      'Montserrat',
-      'Lato',
-      'Roboto',
-      'Nunito Sans',
-      'Open Sans'
-    ]
+    families: ['Montserrat', 'Roboto', 'Nunito Sans', 'Open Sans']
   },
   active: () => {
+    console.log('active');
     ReactDOM.render(<App />, document.getElementById('root'));
     registerServiceWorker();
   }

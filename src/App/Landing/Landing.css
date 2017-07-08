@@ -3,6 +3,12 @@
   margin-top: 14.7vh;
 }
 
+@media only screen and (max-width: 1023px) {
+  .contentSection {
+    margin-top: calc(14.7vh - 96px);
+  }
+}
+
 .row {
   composes: row from '../../assets/css/layout.css';
   width: 75%;
