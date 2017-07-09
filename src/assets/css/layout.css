@@ -22,7 +22,7 @@
 }
 
 .leftSectionContainer {
-  width: 17.1%;
+  width: 17.2222222222%;
   height: 100vh;
   display: inline-block;
   vertical-align: top;
@@ -30,7 +30,7 @@
 
 @media only screen and (max-width: 1439px) {
   .leftSectionContainer {
-    width: 24.4%;
+    width: 17.2%;
   }
 }
 
@@ -41,7 +41,7 @@
 }
 
 .rightSectionContainer {
-  width: 82.9%;
+  width: 82.7777777778%;
   overflow: scroll;
   display: inline-block;
   vertical-align: top;
@@ -49,7 +49,7 @@
 
 @media only screen and (max-width: 1439px) {
   .rightSectionContainer {
-    width: 75.6%;
+    width: 82.8%;
   }
 }
 

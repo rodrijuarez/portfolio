@@ -1,6 +1,6 @@
 .contentSection {
   composes: contentSection from '../../assets/css/layout.css';
-  margin-top: 17.7734375vh;
+  margin-top: 15.8203125vh;
 }
 
 @media only screen and (max-width: 1023px) {
@@ -17,7 +17,7 @@ row:nth-child(2) {
   margin-right: 2.1739130434%;
 }
 
-.row:last-child {
+.contentSection:last-child {
   margin-bottom: 9.6rem;
 }
 

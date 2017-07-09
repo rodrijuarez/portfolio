@@ -1,6 +1,6 @@
 .contentSection {
   composes: contentSection from '../../assets/css/layout.css';
-  margin-top: 17.7734375vh;
+  margin-top: 15.8203125vh;
 }
 
 @media only screen and (max-width: 1023px) {
@@ -11,7 +11,7 @@
 
 .row {
   composes: row from '../../assets/css/layout.css';
-  margin-bottom: 3.859375vh;
+  margin-bottom: 6rem;
 }
 
 .row .labelWrapper {
@@ -22,77 +22,14 @@
   margin-bottom: 2.9296875vh;
 }
 
-.inputWrapper {
-  display: block !important;
-  height: 10.6vh;
-  width: 100%;
-}
-
-.linksWrapper {
-  height: 13.6rem;
-  width: auto;
-  vertical-align: top;
-}
-
-.textareaWrapper {
-  height: 100%;
-}
-
-.buttonWrapper {
-  height: 5.76171875vh;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  outline: none;
-  -webkit-appearance: none;
-  border: 2pt solid #4a4a4a;
-  font-size: 1.8rem;
-  font-family: 'Montserrat';
-  font-weight: 600;
-  font-style: normal;
-  text-transform: uppercase;
-  background-color: white;
-  margin-top: 2.34375vh;
-}
-
-.buttonWrapper:hover {
-  background: #fafafa;
-  outline: none;
-  -webkit-box-shadow: inset 0px 0px 4px #ffffff;
-  -moz-box-shadow: inset 0px 0px 4px #ffffff;
-  box-shadow: inset 0px 0px 4px #ffffff;
-}
-
-.buttonWrapper:active {
-  background: #eeeeee;
-  outline: none;
-  -webkit-box-shadow: inset 0px 0px 4px #fafafa;
-  -moz-box-shadow: inset 0px 0px 4px #fafafa;
-  box-shadow: inset 0px 0px 4px #fafafa;
-}
-
-.label {
-  display: block;
-  font-family: 'Nunito Sans';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1.8rem;
-  text-transform: uppercase;
-  margin-bottom: 1.3671875rem;
-  width: auto;
-}
-
-.textareaWrapper .label {
-  display: inline-block;
-}
-
 .link {
   display: inline-block;
   font-family: 'Nunito Sans';
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal;
-  font-size: 1.8rem;
-  margin-left: 1.1111111111vw;
+  font-size: 2.64rem;
+  line-height: 3.6rem;
+  margin-left: 1.8rem;
   vertical-align: middle;
   cursor: pointer;
 }
@@ -102,68 +39,13 @@
 }
 
 .linkWrapper {
-  margin-left: 0.45vw;
-  margin-bottom: 2.7rem;
+  margin-bottom: 3.6rem;
   cursor: pointer;
   transition: color 0.5s ease;
 }
 
 .linkWrapper:hover {
   color: #7f7d7e;
-}
-
-input {
-  -webkit-appearance: none;
-  border: 2pt solid #4a4a4a;
-  height: 58.4905660377%;
-  width: 100%;
-  font-family: 'Open Sans';
-  font-weight: 100;
-  font-style: normal;
-  font-size: 1.8rem;
-  padding: 1px 1vw;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  outline: none;
-}
-
-textarea {
-  -webkit-appearance: none;
-  border: 2pt solid #4a4a4a;
-  min-height: 58.4905660377%;
-  width: 100%;
-  font-family: 'Open Sans';
-  font-weight: 100;
-  font-style: normal;
-  font-size: 1.8rem;
-  padding: 1rem 1vw;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  outline: none;
-}
-
-.inputWrapper.half,
-.buttonWrapper.half,
-.linksWrapper,
-textarea {
-  width: calc(50% - 1.1111111111vh/2);
-}
-
-.inputWrapper.half,
-.linksWrapper {
-  display: inline-block;
-}
-
-@media only screen and (max-width: 767px) {
-  .inputWrapper.half,
-  .buttonWrapper.half,
-  .linksWrapper,
-  textarea {
-    display: block;
-    width: 100%;
-  }
 }
 
 @media only screen and (max-width: 767px) {

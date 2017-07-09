@@ -1,6 +1,6 @@
 .contentSection {
   composes: contentSection from '../../assets/css/layout.css';
-  margin-top: 14.7vh;
+  margin-top: 14.1vh;
 }
 
 @media only screen and (max-width: 1023px) {
@@ -11,13 +11,7 @@
 
 .row {
   composes: row from '../../assets/css/layout.css';
-  width: 75%;
-}
-
-@media only screen and (max-width: 1439px) {
-  .row {
-    width: 80%;
-  }
+  width: 81.884057971%;
 }
 
 @media only screen and (max-width: 1023px) {

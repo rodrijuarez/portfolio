@@ -1,6 +1,6 @@
 .contentSection {
   composes: contentSection from '../../assets/css/layout.css';
-  margin-top: 17.7734375vh;
+  margin-top: 15.8203125vh;
 }
 
 @media only screen and (max-width: 1023px) {
@@ -14,15 +14,15 @@
 }
 
 .row:not(:first-child) {
-  margin-top: 4.39453125vh;
+  margin-top: 5.4rem;
 }
 
 .row p {
-  margin-top: 1.3671875vh;
+  margin-top: 1.8rem;
 }
 
 .row:last-child {
-  margin-bottom: 9.6rem;
+  margin-bottom: 10.5rem;
 }
 
 .bold {

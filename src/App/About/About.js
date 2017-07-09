@@ -21,21 +21,21 @@ class About extends React.Component {
         <div>
           <h2>RODRIGO JUAREZ</h2>
           <p className={styles.justify}>
-            I was born and raised in{' '}
+             &nbsp;I was born and raised in{' '}
             <span className={styles.bold}>Buenos Aires, Argentina</span>. In a
             very short period of time I learned the basics and got involved in
             the tech industry pretty quickly.   At the beginning of my career I
             spent most of my time working for software factories, where I’ve met
-            a lot of great people and learned a lot from them. I was also
+            a lot of great people and learned a lot from them. <br /> &nbsp;I was also
             fortunate enough to work on{' '}
             <a href="http://bons.me/" target="_blank">
-              <p className={styles.bold}>Bons</p>
+              <strong className={styles.bold}>Bons</strong>
             </a>, a digital agency with a great focus on UX and UI, a place
             where I’ve also discovered the startup world.   At some point I
             realised that I wanted to experience that world at first hand, and
             that’s where I joined{' '}
             <a href="https://airfy.com/" target="_blank">
-              <p className={styles.bold}>Airfy</p>
+              <strong className={styles.bold}>Airfy</strong>
             </a>, the company that I work  for currently.
           </p>
         </div>

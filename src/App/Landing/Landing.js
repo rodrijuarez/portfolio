@@ -15,7 +15,7 @@ class Landing extends React.Component {
 
   componentDidMount() {
     this.setState({ mounted: true });
-    document.title = 'Home - Rodrigo Juarez';
+    document.title = 'Front-end Developer - Rodrigo Juarez';
   }
 
   getNameSection() {

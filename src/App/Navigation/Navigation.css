@@ -6,7 +6,7 @@
 
 @media only screen and (max-width: 1439px) {
   .navigation {
-    width: 24.4%;
+    width: 17.2%;
   }
 }
 
@@ -26,12 +26,8 @@
 .navigationList {
   text-align: right;
   position: relative;
-  top: 45%;
+  top: 50%;
   transform: translateY(-50%);
-}
-
-.navigationList li:first-child a {
-  margin-top: 3.4vh;
 }
 
 @media only screen and (max-width: 1023px) {

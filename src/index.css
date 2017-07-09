@@ -17,26 +17,17 @@ html {
 }
 
 h1 {
-  font-size: 14.4rem;
-  line-height: 19.7rem;
-  font-family: 'Nunito Sans';
-  font-weight: 600;
+  font-size: 19.8rem;
+  line-height: 27rem;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 800;
   font-style: normal;
   color: #060606;
 }
 
 h2 {
-  font-size: 4.8rem;
-  line-height: 6.6rem;
-  font-family: 'Nunito Sans';
-  font-weight: normal;
-  font-style: normal;
-  color: #4a4a4a;
-}
-
-h2 {
-  font-size: 4.8rem;
-  line-height: 6.6rem;
+  font-size: 5.25rem;
+  line-height: 7.2rem;
   font-family: 'Nunito Sans';
   font-weight: normal;
   font-style: normal;
@@ -44,8 +35,8 @@ h2 {
 }
 
 h3 {
-  font-size: 3.6rem;
-  line-height: 4.9rem;
+  font-size: 4.0rem;
+  line-height: 5.4rem;
   font-family: 'Nunito Sans';
   font-weight: normal;
   font-style: normal;
@@ -56,86 +47,54 @@ h4 {
   font-family: 'Roboto';
   font-weight: 300;
   font-style: normal;
-  font-size: 2.8rem;
+  font-size: 3.06rem;
+  line-height: 3.6rem;
   color: #4a4a4a;
 }
 
-p {
-  font-family: 'Open Sans';
-  font-size: 2.4rem;
+p,
+strong {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.6rem;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.5;
+  line-height: 4.8rem;
   letter-spacing: normal;
   text-align: justify;
   color: #888888;
   cursor: default;
 }
 
-p.bold {
-  font-weight: 400;
-  font-style: normal;
-}
-
 a {
   font-family: 'Montserrat';
-  font-size: 2.4rem;
+  font-size: 2.95rem;
 }
 
 @media only screen and (max-width: 1439px) {
-  h1 {
-    font-size: 12.2rem;
-    line-height: 13.8rem;
-  }
-
-  h2 {
-    font-size: 3.6rem;
-    line-height: 4.9rem;
-  }
-
-  h3 {
-    font-size: 3.0rem;
-    line-height: 4.1rem;
-  }
-
-  h4 {
-    font-size: 2.0rem;
-  }
-
-  p {
-    font-size: 1.8rem;
+  html {
+    font-size: 41.6666666667%;
   }
 }
 
 @media only screen and (max-width: 1023px) {
+  html {
+    font-size: 62.5%;
+  }
+
   h1 {
-    font-size: 12.2rem;
-    line-height: 16.7rem;
-  }
-
-  h4 {
-    font-size: 2.8rem;
-  }
-
-  p {
-    font-size: 2.4rem;
-    line-height: 3.6rem;
+    font-size: 14.4rem;
+    line-height: 19.6363636364rem;
   }
 }
 
 @media only screen and (max-width: 767px) {
+  html {
+    font-size: 37.5%;
+  }
+
   h1 {
-    font-size: 4.8rem;
-    line-height: 6.6rem;
-  }
-
-  h4 {
-    font-size: 1.4rem;
-  }
-
-  p {
-    font-size: 1.2rem;
-    line-height: 1.5rem;
+    font-size: 10.8rem;
+    line-height: 14.7272727273rem;
   }
 }

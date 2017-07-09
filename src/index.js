@@ -10,10 +10,9 @@ import './index.css';
 
 Webfont.load({
   google: {
-    families: ['Montserrat', 'Roboto', 'Nunito Sans', 'Open Sans']
+    families: ['Montserrat', 'Roboto', 'Nunito Sans:300,400,800', 'Open Sans:300,600']
   },
   active: () => {
-    console.log('active');
     ReactDOM.render(<App />, document.getElementById('root'));
     registerServiceWorker();
   }
