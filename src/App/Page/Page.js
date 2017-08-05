@@ -5,7 +5,11 @@ import About from '../About';
 import Contact from '../Contact';
 import Landing from '../Landing';
 import Projects from '../Projects';
+import Scroll from 'react-scroll';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-102581168-1');
 
 class Page extends React.Component {
   static propTypes = {};
@@ -22,9 +26,7 @@ class Page extends React.Component {
       <div className={styles.pageContainer}>
         <div className={styles.leftSectionContainer}>
           <div className={[styles.row, styles.fixed].join(' ')}>
-            <Navigation
-              openMenuChanged={this.openMenuChanged.bind(this)}
-            />
+            <Navigation openMenuChanged={this.openMenuChanged.bind(this)} />
           </div>
         </div>
         <div
@@ -33,6 +35,7 @@ class Page extends React.Component {
             this.state.isMenuOpen ? styles.blur : ''
           ].join(' ')}
         >
+          <Route component={ScrollToTop} />
           <Route exact path="/" component={Landing} />
           <Route path="/about" component={About} />
           <Route path="/projects" component={Projects} />
@@ -47,6 +50,21 @@ class Page extends React.Component {
     });
   }
 }
+
+const FireTracking = () => {
+  ReactGA.set({ page: window.location.pathname });
+  ReactGA.pageview(window.location.pathname);
+  ReactGA.event({
+    category: 'Navigation',
+    action: 'Clicked Link'
+  });
+};
+
+const ScrollToTop = () => {
+  FireTracking();
+  Scroll.animateScroll.scrollTo(0);
+  return null;
+};
 
 Page.propTypes = {};
 

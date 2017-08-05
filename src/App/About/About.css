@@ -14,7 +14,7 @@
 }
 
 .row:not(:first-child) {
-  margin-top: 5.4rem;
+  margin-top: 9rem;
 }
 
 .row p {
@@ -37,8 +37,7 @@
   cursor: pointer;
 }
 
-a p.bold {
-  display: inline-block;
+a strong.bold {
   cursor: pointer;
 }
 

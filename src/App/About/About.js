@@ -72,8 +72,7 @@ class About extends React.Component {
             <span className={styles.bold}>Javascript</span>, but one of my main
             goals is to get more involved in{' '}
             <span className={styles.bold}>React</span> and its community, where
-            I’ve only developed some small projects (i.e{' '}
-            <span className={styles.bold}>this site!</span>).
+            I’ve only developed some small projects, for example this site you're currently on.
           </p>
         </div>
       );
@@ -88,7 +87,7 @@ class About extends React.Component {
           <p className={styles.justify}>
             Lately I’ve been also getting more involved in learning{' '}
             <span className={styles.bold}>design</span>; reading books,
-            tutorials, practicing, involving with the communities and learning
+            tutorials, practicing, getting involved with the communities and learning
             from them.
           </p>
         </div>

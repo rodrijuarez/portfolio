@@ -47,6 +47,12 @@ class Projects extends React.Component {
           styleName: 'daysleftProject',
           backgroundColor: '#F0524F',
           link: 'https://itunes.apple.com/us/app/daysleft.to/id1018601836?mt=8'
+        },
+        {
+          name: 'Casa de los vientos',
+          styleName: 'casadelosvientosProject',
+          backgroundColor: '#1dc1f8',
+          link: 'http://casadelosvientos.com.ar'
         }
       ]
     });

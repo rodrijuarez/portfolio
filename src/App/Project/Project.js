@@ -6,7 +6,6 @@ class Project extends React.Component {
   static propTypes = {};
 
   getTimeoutInSecondsForProject() {
-    console.log('this.props, ', this.props);
     return (this.props.index + 1) * 500 / 1000;
   }
 

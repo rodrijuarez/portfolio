@@ -1,9 +1,10 @@
 .navigationItem {
-  margin-bottom: 3.6rem;
+  margin-bottom: 3rem;
   display: block;
 }
 
 .navigationItem a {
+  padding-bottom: 0.6rem;
   display: inline-block;
 }
 

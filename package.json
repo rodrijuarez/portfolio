@@ -1,6 +1,5 @@
 {
   "name": "portfolio",
-  "alias": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -38,8 +37,11 @@
     "react-dom": "^15.6.1",
     "react-easy-transition": "^1.2.4",
     "react-error-overlay": "^1.0.9",
+    "react-ga": "^2.2.0",
     "react-motion": "^0.5.0",
     "react-router-dom": "^4.1.1",
+    "react-scroll": "^1.5.4",
+    "react-scrollbar": "^0.5.1",
     "react-spark-scroll": "^4.0.0",
     "react-spark-scroll-gsap": "^4.0.0",
     "react-transition-group": "^1.2.0",
@@ -56,7 +58,7 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "deploy": "npm run build && now deploy build/ --public"
+    "deploy": "npm run build && now build/ --config=now.json"
   },
   "jest": {
     "collectCoverageFrom": [

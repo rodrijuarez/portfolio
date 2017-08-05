@@ -42,7 +42,6 @@
 
 .rightSectionContainer {
   width: 82.7777777778%;
-  overflow: scroll;
   display: inline-block;
   vertical-align: top;
 }

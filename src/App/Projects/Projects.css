@@ -141,3 +141,33 @@ row:nth-child(2) {
   opacity: 0.01;
   transition: opacity 500ms ease-in;
 }
+
+
+/* Main Section Animations */
+
+.casadelosvientosProjectEnter {
+  opacity: 0.01;
+}
+
+.casadelosvientosProjectEnterActive {
+  opacity: 1;
+  transition: opacity 5500ms ease-in;
+}
+
+.casadelosvientosProjectAppear {
+  opacity: 0.01;
+}
+
+.casadelosvientosProjectAppearActive {
+  opacity: 1;
+  transition: opacity 5500ms ease-in;
+}
+
+.casadelosvientosProjectLeave {
+  opacity: 1;
+}
+
+.casadelosvientosProjectLeaveActive {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}

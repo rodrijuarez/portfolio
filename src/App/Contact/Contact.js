@@ -93,7 +93,7 @@ class Contact extends React.Component {
             src={require('../../assets/icons/mail.svg')}
             className={styles.icon}
           />
-          <label className={styles.link}>rodrigo.juarez.inf@gmail.com</label>
+          <label className={styles.link}>contact@rodrigojuarez.xyz</label>
         </CSSTransitionGroup>
       </a>
     </div>;

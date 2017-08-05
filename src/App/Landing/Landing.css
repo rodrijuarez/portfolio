@@ -9,6 +9,12 @@
   }
 }
 
+@media only screen and (max-height: 900px) {
+  .contentSection {
+    margin-top: 5rem;
+  }
+}
+
 .row {
   composes: row from '../../assets/css/layout.css';
   width: 81.884057971%;
