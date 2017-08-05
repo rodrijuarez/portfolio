@@ -1,6 +1,6 @@
+import { CSSTransitionGroup } from 'react-transition-group';
 import React from 'react';
 import styles from './Contact.css';
-import { CSSTransitionGroup } from 'react-transition-group';
 
 class Contact extends React.Component {
   static propTypes = {};
@@ -72,7 +72,7 @@ class Contact extends React.Component {
           <label className={styles.link}>twitter.com/_rodrijuarez</label>
         </CSSTransitionGroup>
       </a>
-      <a href="mailto:rodrigo.juarez.inf@gmail.com">
+      <a href="mailto:contact@rodrigojuarez.xyz">
         <CSSTransitionGroup
           transitionAppear={true}
           transitionAppearTimeout={2000}
