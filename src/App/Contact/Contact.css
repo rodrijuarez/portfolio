@@ -184,3 +184,32 @@
   opacity: 0.01;
   transition: opacity 500ms ease-in;
 }
+
+/* Medium Link Animations */
+
+.mediumLinkEnter {
+  opacity: 0.01;
+}
+
+.mediumLinkEnterActive {
+  opacity: 1;
+  transition: opacity 2000ms ease-in;
+}
+
+.mediumLinkAppear {
+  opacity: 0.01;
+}
+
+.mediumLinkAppearActive {
+  opacity: 1;
+  transition: opacity 2000ms ease-in;
+}
+
+.mediumLinkLeave {
+  opacity: 1;
+}
+
+.mediumLinkLeaveActive {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}

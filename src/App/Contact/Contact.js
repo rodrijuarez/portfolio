@@ -41,10 +41,7 @@ class Contact extends React.Component {
           className={[styles.linkWrapper]}
           component="div"
         >
-          <img
-            src={require('../../assets/icons/github.svg')}
-            className={styles.icon}
-          />
+          <i className={['fa fa-github', styles.icon].join(' ')} aria-hidden="true" />
           <label className={styles.link}>github.com/rodrijuarez</label>
         </CSSTransitionGroup>
       </a>
@@ -65,10 +62,7 @@ class Contact extends React.Component {
           className={[styles.linkWrapper]}
           component="div"
         >
-          <img
-            src={require('../../assets/icons/twitter.svg')}
-            className={styles.icon}
-          />
+          <i className={['fa fa-twitter', styles.icon].join(' ')} aria-hidden="true" />
           <label className={styles.link}>twitter.com/_rodrijuarez</label>
         </CSSTransitionGroup>
       </a>
@@ -89,11 +83,50 @@ class Contact extends React.Component {
           className={[styles.linkWrapper]}
           component="div"
         >
-          <img
-            src={require('../../assets/icons/mail.svg')}
-            className={styles.icon}
-          />
+          <i className={['fa fa-envelope', styles.icon].join(' ')} aria-hidden="true" />
           <label className={styles.link}>contact@rodrigojuarez.xyz</label>
+        </CSSTransitionGroup>
+      </a>
+      <a href="https://medium.com/@rodrijuarez" target="_blank">
+        <CSSTransitionGroup
+          transitionAppear={true}
+          transitionAppearTimeout={2500}
+          transitionName={{
+            enter: styles.mediumLinkEnter,
+            enterActive: styles.mediumLinkEnterActive,
+            leave: styles.mediumLinkLeave,
+            leaveActive: styles.mediumLinkLeaveActive,
+            appear: styles.mediumLinkAppear,
+            appearActive: styles.mediumLinkAppearActive
+          }}
+          transitionEnterTimeout={2500}
+          transitionLeaveTimeout={500}
+          className={[styles.linkWrapper]}
+          component="div"
+        >
+          <i className={['fa fa-medium', styles.icon].join(' ')} aria-hidden="true" />
+          <label className={styles.link}>@rodrijuarez</label>
+        </CSSTransitionGroup>
+      </a>
+      <a href="https://medium.com/@rodrijuarez" target="_blank">
+        <CSSTransitionGroup
+          transitionAppear={true}
+          transitionAppearTimeout={2500}
+          transitionName={{
+            enter: styles.mediumLinkEnter,
+            enterActive: styles.mediumLinkEnterActive,
+            leave: styles.mediumLinkLeave,
+            leaveActive: styles.mediumLinkLeaveActive,
+            appear: styles.mediumLinkAppear,
+            appearActive: styles.mediumLinkAppearActive
+          }}
+          transitionEnterTimeout={2500}
+          transitionLeaveTimeout={500}
+          className={[styles.linkWrapper]}
+          component="div"
+        >
+          <i className={['fa fa-file', styles.icon].join(' ')} aria-hidden="true" />
+          <label className={styles.link}>resumé</label>
         </CSSTransitionGroup>
       </a>
     </div>;
