@@ -1,9 +1,9 @@
-import React from 'react';
-import styles from './Landing.css';
+import { CSSTransitionGroup } from 'react-transition-group';
 import Description from '../Description';
 import Name from '../Name';
 import Profession from '../Profession';
-import { CSSTransitionGroup } from 'react-transition-group';
+import React from 'react';
+import styles from './Landing.css';
 
 class Landing extends React.Component {
   static propTypes = {};
@@ -15,7 +15,7 @@ class Landing extends React.Component {
 
   componentDidMount() {
     this.setState({ mounted: true });
-    document.title = 'Front-end Developer - Rodrigo Juarez';
+    document.title = 'Web Developer - Rodrigo Juarez';
   }
 
   getNameSection() {
