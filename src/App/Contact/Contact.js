@@ -108,17 +108,17 @@ class Contact extends React.Component {
           <label className={styles.link}>@rodrijuarez</label>
         </CSSTransitionGroup>
       </a>
-      <a href="https://medium.com/@rodrijuarez" target="_blank">
+      <a href="https://www.dropbox.com/s/5m6n7ymjmshxlb7/Resume-RodrigoJuarez.pdf?dl=0" target="_blank">
         <CSSTransitionGroup
           transitionAppear={true}
           transitionAppearTimeout={2500}
           transitionName={{
-            enter: styles.mediumLinkEnter,
-            enterActive: styles.mediumLinkEnterActive,
-            leave: styles.mediumLinkLeave,
-            leaveActive: styles.mediumLinkLeaveActive,
-            appear: styles.mediumLinkAppear,
-            appearActive: styles.mediumLinkAppearActive
+            enter: styles.resumeLinkEnter,
+            enterActive: styles.resumeLinkEnterActive,
+            leave: styles.resumeLinkLeave,
+            leaveActive: styles.resumeLinkLeaveActive,
+            appear: styles.resumeLinkAppear,
+            appearActive: styles.resumeLinkAppearActive
           }}
           transitionEnterTimeout={2500}
           transitionLeaveTimeout={500}

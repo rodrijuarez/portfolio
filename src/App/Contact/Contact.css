@@ -213,3 +213,33 @@
   opacity: 0.01;
   transition: opacity 500ms ease-in;
 }
+
+
+/* Resume Link Animations */
+
+.resumeLinkEnter {
+  opacity: 0.01;
+}
+
+.resumeLinkEnterActive {
+  opacity: 1;
+  transition: opacity 2000ms ease-in;
+}
+
+.resumeLinkAppear {
+  opacity: 0.01;
+}
+
+.resumeLinkAppearActive {
+  opacity: 1;
+  transition: opacity 2000ms ease-in;
+}
+
+.resumeLinkLeave {
+  opacity: 1;
+}
+
+.resumeLinkLeaveActive {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
